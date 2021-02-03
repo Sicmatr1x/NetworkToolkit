@@ -10,7 +10,7 @@ public class MyServerSocket {
     public static void main(String[] args) {
         try {
             // 初始化服务端socket并且绑定9999端口
-            ServerSocket serverSocket = new java.net.ServerSocket(8000);
+            ServerSocket serverSocket = new java.net.ServerSocket(9999);
             //等待客户端的连接
             Socket socket = serverSocket.accept();
             //获取输入流
